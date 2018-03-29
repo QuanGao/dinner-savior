@@ -7,10 +7,10 @@ $(document).ready(function () {
     $(".restaurant-info").empty();
     //event.preventDefault();
     var search = localStorage.getItem("search");
+    console.log(search)
     //$("#search-input").val().trim();
-    var queryURL = 'https://cors-anywhere.herokuapp.com/' +
-        'https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+ChicagoIL' +
-        search + '&key=AIzaSyBK99ou2DEGTdr67L12tIAc0YGgPyCEuIg';
+    var queryURL = `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+Chicago+${search}&key=AIzaSyBK99ou2DEGTdr67L12tIAc0YGgPyCEuIg`;
+
     // performing an AJAX GET request
     //remember to add your API KEY to the url above. 
     $.ajax({
@@ -19,6 +19,7 @@ $(document).ready(function () {
         })
         // After data comes back from request
         .done(function (response) {
+            console.log(response)
             var result = response.results;
             // Looping through each result item
             for (var i = 0; i < 5; i++) {

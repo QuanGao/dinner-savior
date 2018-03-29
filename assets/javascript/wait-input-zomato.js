@@ -80,7 +80,7 @@ $(document).ready(function(){
 
             displayRecipeHeader(first);  
             
-            var queryURL = `https://api.edamam.com/search?q=${styleSearch}&app_id=${appID_edamam}&app_key=${apiKey_edamam}&from=0&to=3`
+            var queryURL = `https://cors-anywhere.herokuapp.com/https://api.edamam.com/search?q=${styleSearch}&app_id=${appID_edamam}&app_key=${apiKey_edamam}&from=0&to=3`
             
             askEdamam(queryURL);        
             
