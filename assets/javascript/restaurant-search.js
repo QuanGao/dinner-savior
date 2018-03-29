@@ -10,7 +10,7 @@ $(document).ready(function () {
     //$("#search-input").val().trim();
     var queryURL = 'https://cors-anywhere.herokuapp.com/' +
         'https://maps.googleapis.com/maps/api/place/textsearch/json?query=restaurants+in+ChicagoIL' +
-        search + '&key=AIzaSyAI_-LF5954Vl6HNopXzOqCK2X4zkqRNCE';
+        search + '&key=AIzaSyBK99ou2DEGTdr67L12tIAc0YGgPyCEuIg';
     // performing an AJAX GET request
     //remember to add your API KEY to the url above. 
     $.ajax({
