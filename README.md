@@ -1,12 +1,14 @@
-# Dinner-Savior
+# [Dinner-Savior](https://quangao.github.io/dinner-savior/)
 
-## A firebase powered web application that helps users report/access wait time at a restaurant in real time. Furthermore, if you decide it is not worth the wait, we would like to inspire you to cook at home with three hand picked recipes according to the types of restaurants you searched for.
+## * A firebase powered web application that allows users report/access wait time at a restaurant in real time.
+
+## * If you decide it is not worth the wait, we offer you three hand picked recipes to cook at home according to the types of restaurants you searched for.
 
 ### Search any restaurants => Select the correct one => Check out wait time
 
 ![customer order productt](./gifs/search.gif)
 
-### Report the newest wait time at popular restaurants => If not happy with the wait, get recipes to cook at hom
+### Report the newest wait time at popular restaurants => If not happy with the wait, get recipes to cook at home
 
 ![customer order productt](./gifs/update.gif)
 
